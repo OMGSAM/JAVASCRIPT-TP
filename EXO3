@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    
+        function capitale(){
+            alert(document.getElementsByName("op")[0].value)
+        }
+         
+    </script>
+</head>
+<body>
+    <form >
+         
+        <select name="op" onchange="capitale()">
+            <option value="WORD / EXCEL /POWER POINT">BUREATIQUE</option>
+            <option value="C++ / JAVA / PYTHON">PROGRAMMATION</option>
+            
+        </select>
+        
+        
+    </form>
+</body>
+</html>
