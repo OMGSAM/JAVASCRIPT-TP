@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+function reset(){
+            document.getElementById("txt1").value = ""
+            document.getElementById("txt2").value = ""
+        }
+    function show(){
+    
+       let a =   document.getElementById("txt").value;
+       let b =  document.getElementById("txt1").value;
+        alert("la CONTENU est : "+(a));
+
+    
+     
+    }
+
+</script>
+<body>
+    <input type="text" id="txt" value="EPIG"> <br>
+
+    <input type="text" id="txt1"  value="EPIG" > <br> 
+
+    <input type="button" value="LIRE" onclick="show()">
+    <input type="button" value="NEW" onchange="reset()">
+     
+</body>
+</html>
