@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function show(){
+    
+       let a =  Number(document.getElementById("txt").value);
+         alert("la CONVERSION DU DOLAR  A DH est : "+(a*11.4));
+
+    
+     
+    }
+    function reset(){
+            Number(document.getElementById("txt").value) == null
+           
+        }
+    </script>
+<body>
+    <input type="text" id="txt" > <br>
+<BR>
+ 
+    <input type="button" value="CONVERTER" onclick="show()"> <BR><BR>
+    <input type="button" value="NEW" onclick="reset()"> <BR>
+     
+</body>
+</html>
