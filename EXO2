@@ -1,0 +1,17 @@
+<form action="/action_page.php" method="post">
+
+  <input type="text" placeholder="NOM" required> <br>
+    <input type="text" placeholder="CITY" required>  <br>
+
+  <input type="text" placeholder="PRENOM" required>  <br>
+  <input type="text" placeholder="SEXE" required>  <br>
+ 
+ <br>
+    <input type="submit" value="Submit">
+    <input type="button" value="clear">
+
+  
+ 
+
+
+</form>
